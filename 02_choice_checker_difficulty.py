@@ -15,8 +15,8 @@ def choice_checker(question, valid_list, error):
         print(error)
 
 
-difficulty_list = ["easy", "intermediate", "hard", "expert"]
+difficulty_list = ["beginner", "intermediate", "hard", "expert"]
 while True:
 
-    quiz_difficulty = choice_checker("what difficulty do you want the quiz to be? ", difficulty_list, "please choose either easy / intermediate / hard / expert ")
+    quiz_difficulty = choice_checker("what difficulty do you want the quiz to be? ", difficulty_list, "please choose either b / i / h / e ")
     print(f"you have chosen {quiz_difficulty} difficulty")

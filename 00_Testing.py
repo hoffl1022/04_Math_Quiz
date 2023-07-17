@@ -1,9 +1,9 @@
-num_1 = 0
-num_2 = 0
+import random
 
-while True:
-    num_1 = int(input())
-    num_2 = int(input())
-    output = num_1 ** num_2
-    print(output)
+num_1 = round(random.uniform(100, 500), 2)
+num_2 = round(random.uniform(20, 75), 2)
+answer = num_1 + num_2
+math_question = f"what is {num_1} + {num_2}? "
 
+print(math_question)
+print(f"the answer is {answer:.2f}")
