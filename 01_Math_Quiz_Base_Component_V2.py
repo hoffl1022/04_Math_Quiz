@@ -211,7 +211,7 @@ while True:
             answer = num_3
             math_question = f"what is {num_1} ÷ {num_2}? "
 
-    # prints the
+    # prints the question generated for the current round
     print(f"\n{math_question}")
     user_answer = int_checker(">>> ", "y")
 
